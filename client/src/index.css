@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Font Families */
+  --font-body: 'Poppins', 'Outfit', sans-serif;
+  --font-display: 'Poppins', 'Rajdhani', sans-serif;
+
+  /* Color Palette - Futuristic Dark Blue & Light Blue Theme */
+  /* Background: Very dark blue, almost black */
+  --background: 222 47% 11%;
+  /* Foreground: White/Off-white */
+  --foreground: 210 40% 98%;
+
+  /* Primary: Vibrant Tech Blue */
+  --primary: 217 91% 60%;
+  --primary-foreground: 222 47% 11%;
+
+  /* Secondary: Deep Navy */
+  --secondary: 217 33% 17%;
+  --secondary-foreground: 210 40% 98%;
+
+  /* Muted: Slate Blue */
+  --muted: 217 33% 17%;
+  --muted-foreground: 215 20% 65%;
+
+  /* Accent: Cyan/Electric Blue for glows */
+  --accent: 199 89% 48%;
+  --accent-foreground: 210 40% 98%;
+
+  /* Destructive */
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+
+  /* Borders & Inputs */
+  --border: 217 33% 20%;
+  --input: 217 33% 20%;
+  --ring: 217 91% 60%;
+
+  /* Card backgrounds */
+  --card: 222 47% 13%;
+  --card-foreground: 210 40% 98%;
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    cursor: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-wide uppercase;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-primary to-accent;
+  }
+  .bg-grid-pattern {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  }
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-md border border-white/10 shadow-xl;
+  }
+}

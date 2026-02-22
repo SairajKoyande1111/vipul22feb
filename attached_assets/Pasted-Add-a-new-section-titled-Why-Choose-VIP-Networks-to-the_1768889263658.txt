@@ -1,0 +1,135 @@
+Add a new section titled “Why Choose VIP Networks?” to the existing website project.
+
+⚠️ Do NOT refactor or break existing code.
+⚠️ Only add the new section and required styles/animations.
+
+📍 Placement (Very Important)
+
+Insert this section:
+
+After the final service card (Solution 11 / Network Booster)
+
+Before the “Projects Completed” / Stats / Counters section
+
+🎨 Design & Theme Requirements
+
+Follow the existing project theme
+
+Use:
+
+Dark Blue
+
+Light Blue
+
+White
+
+Match:
+
+Fonts
+
+Spacing
+
+Button styles
+
+Card styles
+
+Background:
+
+Slight gradient or soft dark-blue background
+
+Professional corporate look (not flashy)
+
+🧩 Section Structure
+Section Title
+
+Why Choose VIP Networks?
+
+Subtitle (optional but recommended):
+Trusted technology partner delivering reliable, secure, and scalable solutions.
+
+Content Layout
+
+Use a grid of 5 feature cards (desktop)
+
+Stack vertically on mobile
+
+Each card should have:
+
+Icon (SVG / font icon / Lottie placeholder)
+
+Title
+
+Short description
+
+Hover animation (subtle lift or glow)
+
+📝 Content (Use Exactly This Copy)
+✔ Experienced Technical Team
+
+Skilled professionals with hands-on expertise in enterprise IT, networking, and security systems.
+
+✔ Enterprise-Grade Solutions
+
+High-performance, scalable solutions built using industry-leading technologies and standards.
+
+✔ Customized System Design
+
+Tailor-made solutions designed specifically to meet your operational and business requirements.
+
+✔ Reliable Support & AMC
+
+Proactive maintenance, quick response, and dependable annual support services you can trust.
+
+✔ Proven Industry Expertise
+
+Successful deployments across commercial, industrial, and enterprise environments.
+
+✨ Animations & UX
+
+Fade-up animation on scroll
+
+Hover effect on cards:
+
+Slight scale (1.03)
+
+Soft shadow glow (light blue)
+
+Icons animate subtly on hover
+
+Smooth transitions (300–400ms)
+
+📱 Responsiveness
+
+Fully responsive
+
+1 column (mobile)
+
+2 columns (tablet)
+
+5 cards grid (desktop)
+
+🛠 Code Requirements
+
+Use existing CSS variables if present
+
+Add new CSS only if required
+
+Keep class names clean and scoped:
+
+.why-choose
+
+.why-card
+
+No breaking changes
+
+No removal of existing sections
+
+🧪 Final Check
+
+Section renders correctly
+
+Matches site branding
+
+Smooth scroll behavior intact
+
+Performance unaffected
