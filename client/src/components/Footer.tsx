@@ -1,4 +1,4 @@
-import { Link } from "wouter";
+import { TranslateLink } from "@/components/TranslateLink";
 import logo from "@assets/Untitled_design_1768974869981.png";
 import facebookIcon from "@assets/facebook_1769417989730.png";
 import whatsappIcon from "@assets/logo_1769417985585.png";
@@ -78,11 +78,11 @@ export function Footer() {
                 { label: "Contact Us", href: "/contact" },
               ].map((link) => (
                 <li key={link.label}>
-                  <Link href={link.href}>
+                  <TranslateLink href={link.href}>
                     <span className="text-white/80 hover:text-[#3b82f6] transition-colors cursor-pointer flex items-center text-[16px]">
                       {link.label}
                     </span>
-                  </Link>
+                  </TranslateLink>
                 </li>
               ))}
             </ul>
@@ -140,12 +140,12 @@ export function Footer() {
         <div className="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center gap-4 text-[15px] text-white/40">
           <p>© {new Date().getFullYear()} VIP Networks. All rights reserved.</p>
           <div className="flex gap-8">
-            <Link href="/privacy">
+            <TranslateLink href="/privacy">
               <span className="hover:text-white transition-colors cursor-pointer" data-testid="link-privacy">Privacy Policy</span>
-            </Link>
-            <Link href="/terms">
+            </TranslateLink>
+            <TranslateLink href="/terms">
               <span className="hover:text-white transition-colors cursor-pointer" data-testid="link-terms">Terms of Service</span>
-            </Link>
+            </TranslateLink>
           </div>
         </div>
       </div>
