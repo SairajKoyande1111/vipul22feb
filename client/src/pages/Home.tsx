@@ -97,7 +97,7 @@ export default function Home() {
                 Reliability
               </span>
             </h1>
-            <div className="max-w-2xl mx-auto text-sm md:text-xl text-white/90 mb-8 md:mb-10 leading-relaxed drop-shadow-lg min-h-[4em] md:h-[3em]">
+            <div className="max-w-2xl mx-auto text-sm md:text-xl text-white/90 mb-8 md:mb-10 leading-relaxed drop-shadow-lg min-h-[4em] md:h-[3em]" translate="no">
               <Typewriter
                 options={{
                   strings: ["Empowering your business with cutting-edge security, networking, and IT infrastructure solutions tailored for the modern enterprise."],
