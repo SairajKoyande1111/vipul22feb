@@ -110,11 +110,11 @@ export default function Home() {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center w-full max-w-[500px] px-4">
-              <Link href="/services" className="w-full">
+              <a href="http://www.vipcatalogue.vipnetworks.in" target="_blank" rel="noopener noreferrer" className="w-full">
                 <button className="w-full px-6 py-3.5 md:py-3 bg-white text-black font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all uppercase text-sm md:text-lg tracking-wider flex items-center justify-center cursor-pointer no-default-hover-elevate no-default-active-elevate whitespace-nowrap">
-                  Explore Solutions
+                  Explore Catalogue
                 </button>
-              </Link>
+              </a>
               <Link href="/contact" className="w-full">
                 <button className="w-full px-6 py-3.5 md:py-3 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition-all uppercase text-sm md:text-lg tracking-wider flex items-center justify-center cursor-pointer backdrop-blur-sm no-default-hover-elevate no-default-active-elevate whitespace-nowrap">
                   Contact Us

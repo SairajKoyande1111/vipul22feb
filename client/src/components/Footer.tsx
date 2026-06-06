@@ -4,6 +4,7 @@ import facebookIcon from "@assets/facebook_1769417989730.png";
 import whatsappIcon from "@assets/logo_1769417985585.png";
 import linkedinIcon from "@assets/linkedin_1769417993177.png";
 import instagramIcon from "@assets/instagram_1769417996612.png";
+import xIcon from "@assets/twitter_1780755534520.png";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useState } from "react";
 
@@ -27,10 +28,11 @@ export function Footer() {
   };
 
   const socialLinks = [
-    { icon: facebookIcon, alt: "Facebook", href: "#" },
+    { icon: facebookIcon, alt: "Facebook", href: "https://www.facebook.com/profile.php?id=61590056023375" },
     { icon: whatsappIcon, alt: "WhatsApp", href: "#" },
     { icon: linkedinIcon, alt: "LinkedIn", href: "#" },
-    { icon: instagramIcon, alt: "Instagram", href: "#" },
+    { icon: instagramIcon, alt: "Instagram", href: "https://www.instagram.com/_vip_networks/" },
+    { icon: xIcon, alt: "X", href: "https://x.com/_VIP_NETWORKS" },
   ];
 
   return (
