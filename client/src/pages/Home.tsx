@@ -110,7 +110,7 @@ export default function Home() {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center w-full max-w-[500px] px-4">
-              <a href="http://www.vipcatalogue.vipnetworks.in" target="_blank" rel="noopener noreferrer" className="w-full">
+              <a href="https://catalogue.vipnetworks.in/" target="_blank" rel="noopener noreferrer" className="w-full">
                 <button className="w-full px-6 py-3.5 md:py-3 bg-white text-black font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all uppercase text-sm md:text-lg tracking-wider flex items-center justify-center cursor-pointer no-default-hover-elevate no-default-active-elevate whitespace-nowrap">
                   Explore Catalogue
                 </button>
