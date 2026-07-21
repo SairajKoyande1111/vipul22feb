@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "vip-networks",
+      name: "vip-networkswebsite",
       script: "./dist/index.cjs",
       instances: 1,
       autorestart: true,
